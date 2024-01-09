@@ -1,10 +1,8 @@
 import React from "react";
-import Reveal from 'react-reveal/Reveal';
 import "./Header.css";
 import SubHeading from "../../components/SubHeading/SubHeading";
 
 const Header = () => (
-    <Reveal effect="fadeInUp">
   <div className="app__hero-header" id="home">
     <div className="app__hero-overlay">
       <div className="app__hero-content">
@@ -26,7 +24,6 @@ const Header = () => (
       </div>
     </div>
   </div>
-   </Reveal>
 );
 
 export default Header;
